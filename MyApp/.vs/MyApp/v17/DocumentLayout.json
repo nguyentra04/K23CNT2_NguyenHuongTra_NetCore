@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\K23CNT2_NguyenHuongTra_NetCore\\MyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B28AF06B-25F4-4C23-A812-F0CC008C2B29}|..\\MyAppNHT\\MyAppNHT.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\myappnht\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\K23CNT2_NguyenHuongTra_NetCore\\MyAppNHT1\\MyAppNHT\\Controllers\\DemoController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\MyAppNHT\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "..\\MyAppNHT\\Controllers\\DemoController.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\MyAppNHT\\Controllers\\DemoController.cs*",
+              "RelativeToolTip": "..\\MyAppNHT\\Controllers\\DemoController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:25:32.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DemoController1.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\MyAppNHT1\\MyAppNHT\\Controllers\\DemoController1.cs",
+              "RelativeDocumentMoniker": "..\\MyAppNHT1\\MyAppNHT\\Controllers\\DemoController1.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\MyAppNHT1\\MyAppNHT\\Controllers\\DemoController1.cs*",
+              "RelativeToolTip": "..\\MyAppNHT1\\MyAppNHT\\Controllers\\DemoController1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:23:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
