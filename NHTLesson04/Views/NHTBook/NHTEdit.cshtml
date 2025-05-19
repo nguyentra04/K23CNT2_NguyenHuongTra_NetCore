@@ -1,0 +1,35 @@
+﻿@model NHTLesson04.Models.NHTBook
+
+@{
+    ViewData["Title"] = "Sửa thông tin sách";
+}
+
+<h2>Sửa thông tin sách</h2>
+
+<form asp-action="NHTEditSubmit" method="post">
+    <input type="hidden" asp-for="NHTId" />
+
+    <div class="form-group">
+        <label>Tiêu đề</label>
+        <input asp-for="NHTTitle" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Mô tả</label>
+        <textarea asp-for="NHTDes" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Hình ảnh</label>
+        <input asp-for="NHTImage" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Giá</label>
+        <input asp-for="NHTPrice" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Số trang</label>
+        <input asp-for="NHTPage" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Cập nhật</button>
+    <a asp-action="NHTIndex" class="btn btn-secondary mt-2">Hủy</a>
+</form>
