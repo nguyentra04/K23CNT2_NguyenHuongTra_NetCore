@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Thông tin member";
+
+    // Kiểm tra chính xác namespace của model
+    var nhtMember = ViewBag.nhtMember as NHTLesson05.Models.DataModels.NHTMember;
+}
+
+@if (nhtMember != null)
+{
+    <div class="alert alert-danger">
+        <h1>Thông tin member</h1>
+        <hr />
+        <p>Member Id: @nhtMember.NHTMemberId</p>
+        <p>Username: @nhtMember.NHTMemberUsername</p>
+        <p>Fullname: @nhtMember.NHTMemberFullname</p>
+        <p>Password: @nhtMember.NHTMemberPassword</p>
+        <p>Email: @nhtMember.NHTMemberEmail</p>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        Không có thông tin thành viên nào được tìm thấy.
+    </div>
+}
