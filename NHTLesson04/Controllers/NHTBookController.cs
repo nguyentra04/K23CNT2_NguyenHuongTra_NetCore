@@ -69,6 +69,7 @@ namespace NHTLesson04.Controllers
         {
             return View(nhtBooks);
         }
+
         // GET: NHTCreate - Hiển thị form tạo sách mới
         public IActionResult NHTCreate()
         {

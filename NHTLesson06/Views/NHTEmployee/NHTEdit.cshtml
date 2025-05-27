@@ -1,0 +1,51 @@
+﻿@model NHTLesson06.Models.NHTEmployee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h2 class="mb-4">Edit Employee</h2>
+
+<form asp-action="NHTEditSubmit" method="post" class="needs-validation" novalidate>
+    <input type="hidden" asp-for="NHTId" />
+
+    <div class="mb-3">
+        <label asp-for="NHTName" class="form-label">Name</label>
+        <input asp-for="NHTName" class="form-control" />
+        <div class="text-danger" asp-validation-for="NHTName"></div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NHTBirthDay" class="form-label">Birthday</label>
+        <input asp-for="NHTBirthDay" type="date" class="form-control" />
+        <div class="text-danger" asp-validation-for="NHTBirthDay"></div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NHTEmail" class="form-label">Email</label>
+        <input asp-for="NHTEmail" type="email" class="form-control" />
+        <div class="text-danger" asp-validation-for="NHTEmail"></div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NHTPhone" class="form-label">Phone</label>
+        <input asp-for="NHTPhone" class="form-control" />
+        <div class="text-danger" asp-validation-for="NHTPhone"></div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NHTSalary" class="form-label">Salary</label>
+        <input asp-for="NHTSalary" class="form-control" />
+        <div class="text-danger" asp-validation-for="NHTSalary"></div>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="NHTStatus" class="form-check-input" type="checkbox" />
+        <label asp-for="NHTStatus" class="form-check-label">Active</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="NHTIndex" class="btn btn-secondary">Cancel</a>
+</form>
+
+
