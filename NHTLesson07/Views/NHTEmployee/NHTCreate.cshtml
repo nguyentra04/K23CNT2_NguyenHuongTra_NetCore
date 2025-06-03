@@ -1,0 +1,60 @@
+﻿@model NHTLesson07.Models.NHTEmployee
+
+@{
+    ViewData["Title"] = "NHTCreate";
+}
+
+<h1>NHTCreate</h1>
+
+<h4>NHTEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NHTCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NHTId" class="control-label"></label>
+                <input asp-for="NHTId" class="form-control" />
+                <span asp-validation-for="NHTId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTName" class="control-label"></label>
+                <input asp-for="NHTName" class="form-control" />
+                <span asp-validation-for="NHTName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTBirthDay" class="control-label"></label>
+                <input asp-for="NHTBirthDay" class="form-control" />
+                <span asp-validation-for="NHTBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTEmail" class="control-label"></label>
+                <input asp-for="NHTEmail" class="form-control" />
+                <span asp-validation-for="NHTEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTPhone" class="control-label"></label>
+                <input asp-for="NHTPhone" class="form-control" />
+                <span asp-validation-for="NHTPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTSalary" class="control-label"></label>
+                <input asp-for="NHTSalary" class="form-control" />
+                <span asp-validation-for="NHTSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NHTStatus" /> @Html.DisplayNameFor(model => model.NHTStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NHTIndex">Back to List</a>
+</div>
+
