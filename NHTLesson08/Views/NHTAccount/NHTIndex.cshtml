@@ -1,0 +1,91 @@
+﻿@model IEnumerable<NHTLesson08.Models.NHTAccount>
+
+@{
+    ViewData["Title"] = "NHTIndex";
+}
+
+<h1>NHTIndex</h1>
+
+<p>
+    <a asp-action="NHTCreate" asp-controller="NHTAccount" class="btn btn-primary">Tạo mới</a>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NHTFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTAvatar)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTBirthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NHTFacebook)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,75 @@
+﻿@model NHTLesson08.Models.NHTAccount
+
+@{
+    ViewData["Title"] = "NHTCreate";
+}
+
+<h1>NHTCreate</h1>
+
+<h4>NHTAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NHTCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NHTId" class="control-label"></label>
+                <input asp-for="NHTId" class="form-control" />
+                <span asp-validation-for="NHTId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTFullName" class="control-label"></label>
+                <input asp-for="NHTFullName" class="form-control" />
+                <span asp-validation-for="NHTFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTEmail" class="control-label"></label>
+                <input asp-for="NHTEmail" class="form-control" />
+                <span asp-validation-for="NHTEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTPhone" class="control-label"></label>
+                <input asp-for="NHTPhone" class="form-control" />
+                <span asp-validation-for="NHTPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTAddress" class="control-label"></label>
+                <input asp-for="NHTAddress" class="form-control" />
+                <span asp-validation-for="NHTAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTAvatar" class="control-label"></label>
+                <input asp-for="NHTAvatar" class="form-control" />
+                <span asp-validation-for="NHTAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTBirthday" class="control-label"></label>
+                <input asp-for="NHTBirthday" class="form-control" />
+                <span asp-validation-for="NHTBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTGender" class="control-label"></label>
+                <input asp-for="NHTGender" class="form-control" />
+                <span asp-validation-for="NHTGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTPassword" class="control-label"></label>
+                <input asp-for="NHTPassword" class="form-control" />
+                <span asp-validation-for="NHTPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NHTFacebook" class="control-label"></label>
+                <input asp-for="NHTFacebook" class="form-control" />
+                <span asp-validation-for="NHTFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NHTIndex">Back to List</a>
+</div>
+
