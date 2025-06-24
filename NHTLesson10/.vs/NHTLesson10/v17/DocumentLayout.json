@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\controllers\\nhtcatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:controllers\\nhtcatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\models\\nhtlesson10k23cnt2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:models\\nhtlesson10k23cnt2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\views\\nhthome\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:views\\nhthome\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|e:\\k23cnt2_nguyenhuongtra_netcore\\nhtlesson10\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2F837B3-4A53-441B-91D4-9D0BAE726E69}|NHTLesson10.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 275,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhtcatesController.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Controllers\\NhtcatesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhtcatesController.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Controllers\\NhtcatesController.cs",
+              "RelativeToolTip": "Controllers\\NhtcatesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:23:17.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nhtlesson10K23cnt2Context.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Models\\Nhtlesson10K23cnt2Context.cs",
+              "RelativeDocumentMoniker": "Models\\Nhtlesson10K23cnt2Context.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Models\\Nhtlesson10K23cnt2Context.cs",
+              "RelativeToolTip": "Models\\Nhtlesson10K23cnt2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAC9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:21:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T03:33:56.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NHTHomeController.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Controllers\\NHTHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NHTHomeController.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Controllers\\NHTHomeController.cs",
+              "RelativeToolTip": "Controllers\\NHTHomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:02:08.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NHTIndex.cshtml",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\NHTHome\\NHTIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NHTHome\\NHTIndex.cshtml",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\NHTHome\\NHTIndex.cshtml",
+              "RelativeToolTip": "Views\\NHTHome\\NHTIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:02:01.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:01:23.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_NHTLayout.cshtml",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\Shared\\_NHTLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NHTLayout.cshtml",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\Shared\\_NHTLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NHTLayout.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T01:56:32.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T01:56:15.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\K23CNT2_NguyenHuongTra_NetCore\\NHTLesson10\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T01:56:17.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
