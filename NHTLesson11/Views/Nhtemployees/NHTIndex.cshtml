@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NHTLesson11.Models.Nhtemployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtempName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtempLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtempStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtempStatus)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtempName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtempLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtempStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtempStatus)
+                    @if (item.NhtempStatus == true)
+                    {
+                        <text>Show</text>
+
+                    }
+                    else
+                    {
+
+                        <text>Hide</text>
+                    }  
+                </td>
+            <td>
+                <a asp-action="NHTEdit" asp-route-id="@item.NhtempId">Edit</a> |
+                <a asp-action="NHTDetails" asp-route-id="@item.NhtempId">Details</a> |
+                <a asp-action="NHTDelete" asp-route-id="@item.NhtempId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
