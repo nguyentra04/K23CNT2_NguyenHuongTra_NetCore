@@ -1,46 +1,69 @@
-﻿@model NHTLesson11.Models.Nhtemployee
+﻿@model NHTLesson11.Models.Nhtemployee;
 
 @{
-    ViewData["Title"] = "NHTCreate";
+    ViewData["Title"] = "Create";
 }
 
 <h1>Create</h1>
+
 
 <h4>Nhtemployee</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="NHTCreate">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NhtempName" class="control-label"></label>
-                <input asp-for="NhtempName" class="form-control" />
-                <span asp-validation-for="NhtempName" class="text-danger"></span>
+        <form asp-action="NHTCreate" method="post">
+                @Html.AntiForgeryToken()
+            <div class="card-header">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="NhtempLevel" class="control-label"></label>
-                <input asp-for="NhtempLevel" class="form-control" />
-                <span asp-validation-for="NhtempLevel" class="text-danger"></span>
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="NhtempId" class="control-label"></label>
+                    <input asp-for="NhtempId" class="form-control" />
+                    <span asp-validation-for="NhtempId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NhtempName" class="control-label"></label>
+                    <input asp-for="NhtempName" class="form-control" />
+                    <span asp-validation-for="NhtempName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NhtempLevel" class="control-label"></label>
+                    <input asp-for="NhtempLevel" class="form-control" />
+                    <span asp-validation-for="NhtempLevel" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NhtempStartDate" class="control-label"></label>
+                    <input asp-for="NhtempStartDate" class="form-control" />
+                    <span asp-validation-for="NhtempStartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NhtempStatus" class="control-label"></label>
+                    <input asp-for="NhtempStatus" class="form-control" />
+                    <span asp-validation-for="NhtempStatus" class="text-danger"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="NhtempStartDate" class="control-label"></label>
-                <input asp-for="NhtempStartDate" class="form-control" type="date" />
-                <span asp-validation-for="NhtempStartDate" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <input asp-for="NhtempStatus" class="form-check-input" type="checkbox" />
-                <label asp-for="NhtempStatus" class="form-check-label">Active Status</label>
-                <span asp-validation-for="NhtempStatus" class="text-danger"></span>
+            <div class="card-footer">
+                <div class="form-group">
+                    <input type="submit" value="ghi lai" class="btn btn-primary" />
+                </div>
+                <div>
+                    <a asp-action="NHTIndex">Back to List</a>
+                </div>
+
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-                <a asp-action="NHTIndex" class="btn btn-secondary">Cancel</a>
-            </div>
+
+
         </form>
     </div>
 </div>
 
+
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+

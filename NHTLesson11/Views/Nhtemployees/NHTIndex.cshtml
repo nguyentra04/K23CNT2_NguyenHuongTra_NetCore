@@ -4,61 +4,65 @@
     ViewData["Title"] = "Danh sách nhân viên";
 }
 
-<h1>Index</h1>
+<h1>Danh sách nhân viên</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    <a asp-action="NHTCreate" class="btn btn-primary">Create New</a>
 </p>
 
 <table class="table table-bordered">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NhtempName)
+                @Html.DisplayNameFor(model => model.First().NhtempId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NhtempLevel)
+                @Html.DisplayNameFor(model => model.First().NhtempName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NhtempStartDate)
+                @Html.DisplayNameFor(model => model.First().NhtempLevel)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NhtempStatus)
+                @Html.DisplayNameFor(model => model.First().NhtempStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().NhtempStatus)
             </th>
             <th>Action</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NhtempName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NhtempLevel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NhtempStartDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NhtempStatus)
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NhtempId)
+                <td>
+                    @Html.DisplayFor(modelItem => item.NhtempName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NhtempLevel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NhtempStartDate)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => item.NhtempStatus)
                     @if (item.NhtempStatus == true)
                     {
-                        <text>Show</text>
-
+                        <text>Hiển thị</text>
                     }
                     else
                     {
-
-                        <text>Hide</text>
-                    }  
+                        <text>Ẩn</text>
+                    } *@
                 </td>
-            <td>
-                <a asp-action="NHTEdit" asp-route-id="@item.NhtempId">Edit</a> |
-                <a asp-action="NHTDetails" asp-route-id="@item.NhtempId">Details</a> |
-                <a asp-action="NHTDelete" asp-route-id="@item.NhtempId">Delete</a>
-            </td>
-        </tr>
-}
+                <td>
+                    <a asp-action="NHTEdit" asp-route-id="@item.NhtempId" class="btn btn-outline-warning">Edit</a>
+                    <a asp-action="NHTDetails" asp-route-id="@item.NhtempId" class="btn btn-outline-primary">Details</a> 
+                    <a asp-action="NHTDelete" asp-route-id="@item.NhtempId" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

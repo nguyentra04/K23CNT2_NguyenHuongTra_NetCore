@@ -11,33 +11,34 @@
     <h4>Nhtemployee</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.NhtempName)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NhtempName)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.NhtempLevel)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NhtempLevel)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.NhtempStartDate)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NhtempStartDate)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.NhtempStatus)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NhtempStatus)
         </dd>
     </dl>
-    
-    <form asp-action="NHTDelete">
+
+    <form asp-action="NHTDeleteConfirmed">
+        @Html.AntiForgeryToken()
         <input type="hidden" asp-for="NhtempId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="NHTIndex">Back to List</a>

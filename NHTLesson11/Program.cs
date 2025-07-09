@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=NHTHome}/{action=NHTIndex}/{NHTid?}");
+    pattern: "{controller=NHTHome}/{action=NHTIndex}/{id?}");
 
 app.Run();
